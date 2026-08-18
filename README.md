@@ -19,3 +19,12 @@ Esta coleção reúne testes de software organizados por fluxo do produto.
 - Os testes E2E usam respostas simuladas. Não há credenciais, cobranças ou dados reais.
 
 Os testes são escritos para demonstrar comportamento observável, critérios de aceite e evidências de execução.
+
+## Fluxo destacado: criação de aluno no painel do coach
+
+Este fluxo mostra como uma pessoa cria um aluno no painel e como o sistema
+reage quando o e-mail já pertence a outro aluno.
+
+- [Roteiro de QA e critérios observados](flows/coach-student-creation/README.md)
+- [Cenário Cypress](flows/coach-student-creation/coach-create-student.cy.ts)
+- [Vídeo da execução](flows/coach-student-creation/coach-create-student.cy.ts.mp4)
